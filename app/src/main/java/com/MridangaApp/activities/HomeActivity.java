@@ -101,12 +101,14 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void pauseClicked() {
-        if(mPlayer!=null && mPlayer.isPlaying()){//If music is playing already
-            mPlayer.stop();//Stop playing the music
+        if(mPlayer!=null && mPlayer.isPlaying()){
+            //If music is playing already
+            mPlayer.stop();
             state = 0;
         }
-        if(mPlayer2!=null && mPlayer2.isPlaying()){//If music is playing already
-            mPlayer2.stop();//Stop playing the music
+        if(mPlayer2!=null && mPlayer2.isPlaying()){
+            //If music is playing already
+            mPlayer2.stop();
             state = 0;
         }
     }
